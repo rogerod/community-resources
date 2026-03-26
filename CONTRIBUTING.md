@@ -6,16 +6,18 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 ### Requirements
 
-- [ ] This pull request has a title in the format `Add NAME_OF_RESOURCE`.
-  - ✅ `Add Figma Plugin DS`
-  - ✅ `Add Chroma`
+- [ ] This pull request has a title in the format `Add [TYPE] NAME_OF_RESOURCE`.
+  - ✅ `Add [plugin] Design Lint`
+  - ✅ `Add [widget] Sticky Notes Exporter`
+  - ✅ `Add [skill] figma-implement-design`
+  - ✅ `Add [resource] create-figma-plugin`
   - ❌ `Update readme.md`
 - [ ] Your entry here should include a short description about the resource. The first character should be uppercase and the description should end in a dot. It should be an objective description and not a tagline or marketing blurb.
   - ✅ `- A small lightweight design system for use in Figma Plugins`
   - ✅ `- A Figma plugin for creating bulk color styles from selection.`
   - ❌ `- The best Figma plugin`
   - ❌ `- This resource will change your life.`
-- [ ] Your entry should be added to the appropriate category sorted in alphabetical order.
+- [ ] Your entry should be added to the appropriate section file sorted in alphabetical order.
 - [ ] Your entry should be in the following format.
 - [ ] Your entry is an active project - outdated projects will not be accepted.
 - [ ] If possible, your resource should have an appropriate license.
@@ -23,35 +25,47 @@ Please note that this project is released with a [Contributor Code of Conduct](c
     - Tip: You can quickly add it to your repo by going to this URL: `https://github.com/<user>/<repo>/community/license/new?branch=main&template=cc0-1.0` (replace `<user>` and `<repo>` accordingly).
   - A code license like MIT is acceptable.
   - Place a file named `license` or `LICENSE` in the repo root with the license text.
-- [ ] The repo should have `figma` & `figma-plugin` as [GitHub topics](https://help.github.com/articles/about-topics). I encourage you to add more relevant topics including `figma-widget` or `figma-api` if applicable.
+- [ ] The repo should have the appropriate [GitHub topics](https://help.github.com/articles/about-topics) based on resource type:
+  - **Plugins:** `figma` + `figma-plugin`
+  - **Widgets:** `figma` + `figma-widget`
+  - **Skills:** `figma` + `figma-mcp`
+  - **Resources:** `figma` + the most relevant type tag
 - [ ] By submitting a link you represent that to the best of your knowledge you are not infringing another party's intellectual party.
 - [ ] Your entry should be in the following format
-
-  - Resource:
-
-    ```
-    #### RESOURCE_NAME
-    [SOURCE CODE](GITHUB_URL) • [LICENSE_TYPE](LICENSE_URL)
-
-    Resource Description
-    ```
 
   - Plugin:
 
     ```
     #### PLUGIN_NAME
+    [SOURCE CODE](GITHUB_URL) · [PLUGIN](FIGMA_PLUGIN_URL) · [LICENSE_TYPE](LICENSE_URL)
 
-    [SOURCE CODE](GITHUB_URL) • [PLUGIN](FIGMA_PLUGIN_URL) • [LICENSE_TYPE](LICENSE_URL)
-
-    Plugin Description
+    Plugin description.
     ```
 
   - Widget:
 
     ```
     #### WIDGET_NAME
+    [SOURCE CODE](GITHUB_URL) · [WIDGET](FIGMA_WIDGET_URL) · [LICENSE_TYPE](LICENSE_URL)
 
-    [SOURCE CODE](GITHUB_URL) • [WIDGET](FIGMA_WIDGET_URL) • [LICENSE_TYPE](LICENSE_URL)
+    Widget description.
+    ```
 
-    Widget Description
+  - Skill:
+
+    ```
+    #### SKILL_NAME
+    [SOURCE CODE](GITHUB_URL) · [LICENSE_TYPE](LICENSE_URL)
+    **MCP Tools:** `tool_a` `tool_b` `tool_c`
+
+    Skill description.
+    ```
+
+  - Resource:
+
+    ```
+    #### RESOURCE_NAME
+    [SOURCE CODE](GITHUB_URL) · [LICENSE_TYPE](LICENSE_URL)
+
+    Resource description.
     ```

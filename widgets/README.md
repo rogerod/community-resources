@@ -8,6 +8,8 @@ _A collection of open source plugins, widgets and other resources for Figma + Fi
 
 > _Pull Requests are being welcomed. Please see the [Contributing Guide](../CONTRIBUTING.md) before opening a Pull Request._
 
+This repository is distinct from the [Figma Community](https://www.figma.com/community/whiteboarding). Submitting resources to this repository does not guarantee the resources will be featured in the Figma Community. To learn about submitting to the Figma Community, see [Publish widgets to the Figma Community](https://help.figma.com/hc/en-us/articles/4410337103639).
+
 ## DISCLAIMER:
 
 The resources provided are meant to be helpful for Figma plugin and widget development. They are not endorsed or sponsored by Figma in any way. **Please do your own due diligence and security review before using any resources listed.**

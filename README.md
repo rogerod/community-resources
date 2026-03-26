@@ -11,6 +11,8 @@ There are two ways to submit:
 > You can submit an issue using the Resource Addition Request template and
 > provide the info about your resource.
 
+This repository is distinct from the [Figma Community](https://www.figma.com/community). Submitting resources to this repository does not guarantee the resources will be featured in the Figma Community.
+
 ## DISCLAIMER
 
 The resources provided are meant to be helpful for Figma development. They are not

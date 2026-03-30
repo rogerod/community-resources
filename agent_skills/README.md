@@ -18,6 +18,7 @@ endorsed or sponsored by Figma in any way. **Please do your own due diligence an
 security review before using any resources listed.**
 
 ---
+<<<<<<< HEAD
 
 ## Table of Contents
 
@@ -27,6 +28,8 @@ security review before using any resources listed.**
 ---
 
 ### Accessibility
+=======
+>>>>>>> bd3583d (removed duplication)
 
 #### figma-apca-compliance
 
@@ -35,17 +38,23 @@ security review before using any resources listed.**
 A skill for integrating APCA contrast compliance directly into the Figma design process. Audits and remaps color variables to meet target Lc thresholds, and generates APCA-compliant component variations across light and dark modes.
 
 ---
+<<<<<<< HEAD
 
 **[⬆ Back to TOC](#table-of-contents)**
 
 ### Components
+=======
+>>>>>>> bd3583d (removed duplication)
 
 #### figma-reconstruct-component
 
 [SOURCE CODE](https://github.com/JP4000000/figma-reconstruct-component) · [MIT](https://github.com/JP4000000/figma-reconstruct-component/blob/main/LICENSE.txt)
 **MCP Tools:** `get_design_context` `get_screenshot` `use_figma`
 A skill that takes a selected Figma frame and rebuilds it as a proper Atomic Design component system directly on the Figma canvas, without Code Connect or a published library.
+<<<<<<< HEAD
 
 ---
 
 **[⬆ Back to TOC](#table-of-contents)**
+=======
+>>>>>>> bd3583d (removed duplication)

@@ -23,6 +23,7 @@ security review before using any resources listed.**
 
 - [Accessibility](#accessibility)
 - [Components](#components)
+- [Design Systems](#design-systems)
 
 ---
 
@@ -45,6 +46,18 @@ A skill for integrating APCA contrast compliance directly into the Figma design 
 [SOURCE CODE](https://github.com/JP4000000/reconstruct-component-figma) · [MIT](https://github.com/JP4000000/reconstruct-component-figma/blob/main/LICENSE.txt)
 **MCP Tools:** `get_design_context` `get_screenshot` `use_figma`
 A skill that takes a selected Figma frame and rebuilds it as a proper Atomic Design component system directly on the Figma canvas, without Code Connect or a published library.
+
+---
+
+**[⬆ Back to TOC](#table-of-contents)**
+
+### Design Systems
+
+#### ds-init-figma
+
+[SOURCE CODE](https://github.com/arnaudmorvan/ds-init-figma) · [MIT](https://github.com/arnaudmorvan/ds-init-figma/blob/main/LICENSE)
+**MCP Tools:** `create_new_file` `use_figma` `get_screenshot`
+A skill that creates a complete Design System directly on the Figma canvas, including variables, tokens, foundations, components with variants, documentation pages, and showcase layouts. Supports full DS creation, adding individual components, or generating specific pages on an existing file.
 
 ---
 

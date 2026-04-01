@@ -57,7 +57,7 @@ A skill that takes a selected Figma frame and rebuilds it as a proper Atomic Des
 
 [SOURCE CODE](https://github.com/noemuch/bridge) · [MIT](https://github.com/noemuch/bridge/blob/main/LICENSE)
 **MCP Tools:** `use_figma` `get_design_context` `get_screenshot` `get_variable_defs` `search_design_system` `get_metadata`
-A compiler-driven design generation skill that produces 100% design-system-compliant Figma designs. Extracts your design system into a knowledge base, compiles declarative scene graphs with token references into Figma Plugin API code, and executes it via MCP. Supports components, bound variables, text styles, and recipe-based iteration.
+A skill that generates Figma designs fully bound to your design system. Extracts components, variables, and text styles into a local knowledge base, then compiles declarative scene graphs into Figma Plugin API code executed via MCP. All output uses real component instances, bound variables, and token references — no hardcoded values. Includes a recipe system that learns from corrections to improve future generations.
 
 ---
 

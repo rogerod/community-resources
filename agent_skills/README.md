@@ -70,6 +70,14 @@ Writes a four-part design rationale from a Figma file covering context, insight,
 
 ---
 
+#### screens-to-ia
+
+[SOURCE CODE](https://github.com/mariespreitzer/screens-to-ia-figma) · [MIT](https://github.com/mariespreitzer/screens-to-ia-figma/blob/main/LICENSE)
+**MCP Tools:** `get_metadata` `get_design_context` `get_screenshot` `use_figma`
+Generates an information architecture page inside the Figma file with a sitemap and per-screen content hierarchy, export-ready as PDF.
+
+---
+
 #### workshop-board
 
 [SOURCE CODE](https://github.com/mariespreitzer/workshop-board-figma) · [MIT](https://github.com/mariespreitzer/workshop-board-figma/blob/main/LICENSE)

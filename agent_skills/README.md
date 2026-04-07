@@ -24,6 +24,7 @@ security review before using any resources listed.**
 - [Accessibility](#accessibility)
 - [Components](#components)
 - [Design Generation](#design-generation)
+- [Design Systems](#design-systems)
 
 ---
 
@@ -58,6 +59,13 @@ A skill that takes a selected Figma frame and rebuilds it as a proper Atomic Des
 [SOURCE CODE](https://github.com/noemuch/bridge) · [MIT](https://github.com/noemuch/bridge/blob/main/LICENSE)
 **MCP Tools:** `use_figma` `get_design_context` `get_screenshot` `get_variable_defs` `search_design_system` `get_metadata`
 A skill that generates Figma designs fully bound to your design system. Extracts components, variables, and text styles into a local knowledge base, then compiles declarative scene graphs into Figma Plugin API code executed via MCP. All output uses real component instances, bound variables, and token references — no hardcoded values. Includes a recipe system that learns from corrections to improve future generations.
+### Design Systems
+
+#### ds-init-figma
+
+[SOURCE CODE](https://github.com/arnaudmorvan/ds-init-figma) · [MIT](https://github.com/arnaudmorvan/ds-init-figma/blob/main/LICENSE)
+**MCP Tools:** `create_new_file` `use_figma` `get_screenshot`
+A skill that creates a complete Design System directly on the Figma canvas, including variables, tokens, foundations, components with variants, documentation pages, and showcase layouts. Supports full DS creation, adding individual components, or generating specific pages on an existing file.
 
 ---
 

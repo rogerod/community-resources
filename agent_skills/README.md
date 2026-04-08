@@ -40,7 +40,7 @@ security review before using any resources listed.**
 #### emote-behavioral-contracts
 
 [SOURCE CODE](https://github.com/rogerod/emote-behavioral-contracts) · [MIT](https://github.com/rogerod/emote-behavioral-contracts/blob/main/LICENSE)
-**MCP Tools:** `get_design_context` `get_screenshot` `get_metadata`
+**MCP Tools:** `get_design_context` `get_metadata` `use_figma`
 Reads Emote behavioral annotation components from a Figma frame and produces implementation-ready behavioral contracts for AI-driven interfaces.
 
 ---
